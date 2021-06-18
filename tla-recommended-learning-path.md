@@ -32,7 +32,7 @@ set theory" by Tony Lian (or some graduate-level handbooks for math students).
 
 ## Step 1: Read TLA entry in Ron Pressler's blog
 
-Somehow it happened that it was not the inventor of TLA+ who gave best introduction to the language.
+Somehow it happened that it was not the inventor of TLA+ who gave the best introduction to the language.
 
 There are 4 blog entries, linked into a chain. This chain starts [here](https://pron.github.io/posts/tlaplus_part1).
 
