@@ -64,7 +64,7 @@ which allows nice rendering of TLA+ symbols - see [here](https://www.gitmemory.c
 - Building a simple distributed system: [here](https://jack-vanlightly.com/blog/2019/1/25/building-a-simple-distributed-system-the-what)
 - Alexander Niederbühl: [here](https://github.com/Alexander-N/tla-specs)
 
-### Step 6: Read PlusCal book (by Hillel Wayne)
+### Step 5: Read PlusCal book (by Hillel Wayne)
 
 PlusCal is another specification language created by Leslie Lamport. It compiles to TLA+. It was a brave attempt to attract
 these software developers, who are into "hacking" but who perceive pure math as "too scary to be useful". Hence, PlusCal attempts
@@ -75,11 +75,11 @@ is exclusively devoted to PlusCal. It ignores TLA+ completely.
 
 Nevertheless, it gives another interesting perspective on TLA+ in general.
 
-## Step 7: Attempt writing a spec and analyze it
+## Step 6: Attempt writing a spec and analyze it
 
 (under construction)
 
-## Step 8: Play with proofs
+## Step 7: Play with proofs
 
 (under construction)
 
