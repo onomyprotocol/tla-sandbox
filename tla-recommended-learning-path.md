@@ -57,14 +57,14 @@ of these symbols (which largely resembles working with LaTeX).
 Alternatively, one can install Visual Studio Code, which supports a plugin for TLA+. There is also another plugin
 which allows nice rendering of TLA+ symbols - see [here](https://www.gitmemory.com/issue/alygin/vscode-tlaplus/197/770464096).
 
-### Step 4: Analyze some examples
+## Step 4: Analyze some examples
 
 - TLA+ main GitHub site: [here](https://github.com/tlaplus)
 - Hillel Wayne blog: [here](https://www.hillelwayne.com/)
 - Building a simple distributed system: [here](https://jack-vanlightly.com/blog/2019/1/25/building-a-simple-distributed-system-the-what)
 - Alexander Niederbühl: [here](https://github.com/Alexander-N/tla-specs)
 
-### Step 5: Read PlusCal book (by Hillel Wayne)
+## Step 5: Read PlusCal book (by Hillel Wayne)
 
 PlusCal is another specification language created by Leslie Lamport. It compiles to TLA+. It was a brave attempt to attract
 these software developers, who are into "hacking" but who perceive pure math as "too scary to be useful". Hence, PlusCal attempts
