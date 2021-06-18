@@ -23,16 +23,16 @@ TLA+ is based on:
 1. Zermelo-Fraenkel set theory (see [here](https://en.wikipedia.org/wiki/Zermelo%E2%80%93Fraenkel_set_theory))
 3. Temporal Logic (see [here](https://en.wikipedia.org/wiki/Temporal_logic))
 
-(1) and (2) are what is considered a "standard" notation in mainstream math for (at least) last 100 years.
+(1) and (2) form together what is considered "the standard notation" in mainstream math for (at least) last 100 years.
 
-Wikipedia gives a shallow intros to all these topics - nevertheless they are deep enough to grasp TLA+.
+Wikipedia gives a shallow intros to all these topics - nevertheless they are comprehensive enough to grasp TLA+.
 
 For a more detailed introduction to set theory, consider reading the paper "Fundamentals of Zermelo-Fraenkel
 set theory" by Tony Lian (or some graduate-level handbooks for math students).
 
 ## Step 1: Read TLA entry in Ron Pressler's blog
 
-Somehow it happened that it was not the inventor of TLA+ who gave the best introduction to the language.
+Somehow it has happened that it was not the inventor of TLA+ who gave the best introduction to the language.
 
 There are 4 blog entries, linked into a chain. This chain starts [here](https://pron.github.io/posts/tlaplus_part1).
 
@@ -43,8 +43,8 @@ The book can be downloaded from [here](https://lamport.azurewebsites.net/tla/boo
 This book introduces TLA+ in examples-oriented way. This is a little convoluted, because the author is a mathematician,
 so he definitely is a definition-oriented person - nevertheless he seems to believe that the path "define-than-use" is unnatural
 to engineers. Following this (false) assumption he attempts to introduce TLA+ gradually with examples. This turns out to be
-heavily confusing when used as the first intro to TLA+. It however turns into quite useful when read AFTER everything
-is nicely explained in Ron's blog (see step 1 above).
+heavily confusing when used as a first intro to TLA+. It however turns into quite useful when read AFTER getting the big picture
+from Ron's blog (see step 1 above).
 
 ## Step 3: Install TLA+ IDE
 
@@ -66,14 +66,16 @@ which allows nice rendering of TLA+ symbols - see [here](https://www.gitmemory.c
 
 ## Step 5: Read PlusCal book (by Hillel Wayne)
 
-PlusCal is another specification language created by Leslie Lamport. It compiles to TLA+. It was a brave attempt to attract
-these software developers, who are into "hacking" but who perceive pure math as "too scary to be useful". Hence, PlusCal attempts
-to mimic programming language syntax.
+PlusCal is yet another specification language created by Leslie Lamport. It compiles to TLA+. PlusCal stands as a brave attempt
+to attract these software developers, who perceive pure math as "too scary to be useful". Hence, PlusCal attempts to mimic
+programming language syntax.
 
 Hillel Wayne - who is a TLA+ guru - published a book with a misleading title "Practical TLA+". Contrary to the title, this book
 is exclusively devoted to PlusCal. It ignores TLA+ completely.
 
 Nevertheless, it gives another interesting perspective on TLA+ in general.
+
+Caution: we do not use PlusCal in Onomy specifications.
 
 ## Step 6: Attempt writing a spec and analyze it
 
